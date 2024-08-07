@@ -19,7 +19,7 @@ const LoadingScreen = () => (
   <Center h="100vh" flexDirection="column">
     <Loading />
     <Text color="gray.600" fontSize={20} fontWeight="bold">
-      Cracking military-grade encryption...
+      Cracking military-grade encryption...usually takes 30-60seconds
     </Text>
   </Center>
 );
