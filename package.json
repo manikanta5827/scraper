@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "concurrently \"npm run start --prefix frontend\" \"npm run start --prefix backend\"",
-    "install-all": "npm install --prefix frontend && npm install --prefix backend"
+    "install-all": "npm install --prefix frontend && npm install --prefix backend && npm install concurrently"
   },
   "dependencies": {
     "concurrently": "^8.2.2"
